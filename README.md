@@ -45,10 +45,10 @@ Fulfilling with the described usage, a usage example would be the next one:
 
 The expected output is shown below:
 ```
-{"bugtraq_id": 1, "title": "Berkeley Sendmail DEBUG Vulnerability", "vuln_products": ["Eric Allman Sendmail 5.58"]}
-{"bugtraq_id": 2, "title": "BSD fingerd buffer overflow Vulnerability", "vuln_products": ["BSD BSD 4.2"]}
-{"bugtraq_id": 3, "title": "SunOS restore Vulnerability", "vuln_products": ["Sun SunOS 4.0.3", "Sun SunOS 4.0.1", "Sun SunOS 4.0"]}
-{"bugtraq_id": 4, "title": "BSD passwd buffer overflow Vulnerability", "vuln_products": ["BSD BSD 4.3", "BSD BSD 4.2"]}
+{"bugtraq_id": 1, "title": "Berkeley Sendmail DEBUG Vulnerability", "class": "Configuration Error", "cve": [], "local": "yes", "remote": "yes", "vuln_products": ["Eric Allman Sendmail 5.58"]}
+{"bugtraq_id": 2, "title": "BSD fingerd buffer overflow Vulnerability", "class": "Boundary Condition Error", "cve": [], "local": "no", "remote": "yes", "vuln_products": ["BSD BSD 4.2"]}
+{"bugtraq_id": 3, "title": "SunOS restore Vulnerability", "class": "Unknown", "cve": [], "local": "yes", "remote": "no", "vuln_products": ["Sun SunOS 4.0.3", "Sun SunOS 4.0.1", "Sun SunOS 4.0"]}
+{"bugtraq_id": 4, "title": "BSD passwd buffer overflow Vulnerability", "class": "Boundary Condition Error", "cve": ["CVE-1999-1471"], "local": "no", "remote": "no", "vuln_products": ["BSD BSD 4.3", "BSD BSD 4.2"]}
 ```
 
 ## Bonus Track
