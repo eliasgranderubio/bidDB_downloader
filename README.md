@@ -53,7 +53,9 @@ The expected output is shown below:
 
 ## Bonus Track
 
-You have available the BugTraq Id database downloaded on 11/18/2016 in the **bonus_track** directory of this repository.
+You have available the BugTraq Ids database downloaded on 05/07/2017 in the **bonus_track** directory of this repository.
+
+**IMPORTANT TO NOTE:** The BugTraq Ids database downloaded on 11/18/2016 which is included in the **20161118_sf_db.json.gz** file has deprecated info and it will be deleted soon.
 
 ## Bugs and Feedback
 For bugs, questions and discussions please use the [Github Issues](https://github.com/eliasgranderubio/bidDB_downloader/issues) or ping me on Twitter (@3grander).
