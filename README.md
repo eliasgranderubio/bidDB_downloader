@@ -6,7 +6,7 @@ To fulfill its mission, each BugTraq Id and its info is parsed from the HTML and
 ## Requirements
 Before **bidDB_downloader** usage, you must have installed Python >= 3.4.5 and the requirements:
 
-* Python3.4.5 or later
+* Python 3.4.5 or later
 * Pip3
   * Joblib
   * Requests
@@ -53,9 +53,9 @@ The expected output is shown below:
 
 ## Bonus Track
 
-You have available the BugTraq Ids database downloaded on 05/07/2017 in the **bonus_track** directory of this repository.
+You have available the BugTraq Ids database downloaded on 03/28/2018 in the **bonus_track** directory.
 
-**IMPORTANT TO NOTE:** The BugTraq Ids database downloaded on 11/18/2016 which is included in the **20161118_sf_db.json.gz** file has deprecated info and it will be deleted soon.
+**IMPORTANT TO NOTE:** The BugTraq Ids database downloaded on 05/07/2017 which is included in the **20170507_sf_db.json.gz** file has been deprecated info and it will be deleted soon.
 
 ## Bugs and Feedback
 For bugs, questions and discussions please use the [Github Issues](https://github.com/eliasgranderubio/bidDB_downloader/issues) or ping me on Twitter (@3grander).
